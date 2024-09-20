@@ -1,4 +1,4 @@
-let mutex = 1, full = 0, empty = 3, buffer = [];
+let mutex = 1, full = 0, empty = 10, buffer = [];
 const itemsContainer = document.getElementById('items');
 const messageContainer = document.getElementById('message');
 const itemNameInput = document.getElementById('itemName');
