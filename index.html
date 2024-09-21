@@ -1,27 +1,76 @@
-<html></html>
+    <html>
 <head>
-<title>PRODUCER CONSUMER PROBLEM</title>
-<style>
-    body{
-    background-image: url(back.jpg);
-    background-size: cover;
-    background-position: center;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <style>
+        body {
+            background-image: url(back.jpg);
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-}
-</style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
 
+        button {
+            font-size: 2.1rem;
+            cursor: pointer;
+            background-color: rgba(97, 5, 86, 0.253);
+            box-shadow: 2px 1px 10px 1px #888888;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 15px;
+            border: none;
+            text-align: center;
+        }
+        button:hover{
+            background-color: rgb(88, 88, 148);
+        }
+        button a {
+            text-decoration: none;
+            color: skyblue;
+        }
+
+        /* Media Queries for responsiveness */
+        @media screen and (max-width: 768px) {
+            button {
+                margin-top: 30%;
+                font-size: 1.8rem;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            button {
+                margin-top: 20%;
+                font-size: 1.5rem;
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+            button {
+                margin-top: 50%;
+                font-size: 1.2rem;
+            }
+        }
+    </style>
 </head>
-
 <body>
     <div class="container">
-    <button style="margin-top: 20%;margin-left: 43.4%;font-size: 2.1rem;cursor: pointer;background-color: rgba(97, 5, 86, 0.253);
-     box-shadow: 2px 1px 10px 1px #888888;font-family: 'Courier New', Courier, monospace;">
-       <a href="p_c.html" style="text-decoration: none;color: skyblue;">
-        PRODUCER <br>CONSUMER<br> PROBLEM
-
-       </a> 
+        <button>
+            <a href="p_c.html">
+                PRODUCER <br>CONSUMER<br> PROBLEM
+            </a> 
         </button>
     </div>
-
-    </body>
-    </html>
+</body>
+</html>
